@@ -14,6 +14,20 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="navbarSupport">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-link active">
+            <a class="nav-link" href="plane.html">Plane</a>
+          </li>
+          <li class="nav-link active">
+            <a class="nav-link" href="train.html">Train</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
   <h1>Animals by: Jacob Daleske</h1>
   <div class="container">
     <div class="row">
@@ -117,5 +131,23 @@
         <button type="button" class="btn">K</button>
       </div>
     </div>
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label for="animals">Animal</label>
+        <input type="text" placeholder="Enter your animal" class="form-control">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label">Sign Up For Newsletter?</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 </body>
 </html>
